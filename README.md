@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Dhamu785
+- 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
 - 🌱 I’m currently learning Python and Flutter
 - 📫 How to reach me mail 'dhamodharan1888@gmail.com'
