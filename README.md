@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
 - 🐍 Intermediate at python. 
-- 🍃 Know basics in flutter. 
-- 🌱 I’m currently learning Data analytics @Google
+- 🍃 Know basics in flutter and dart languages. 
+- 🌱 I’m currently learning Data analytics professional certificate @Google.
 - 📫 How to reach me mail 'dhamodharan1888@gmail.com'
 - 📇 Data analytics 
 
