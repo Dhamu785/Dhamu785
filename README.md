@@ -1,7 +1,10 @@
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
-- 🌱 I’m currently learning Python and Flutter
+- 🐍 Intermediate at python. 
+- 🍃 Know basics in flutter. 
+- 🌱 I’m currently learning Data analytics @Google
 - 📫 How to reach me mail 'dhamodharan1888@gmail.com'
+- 📇 Data analytics 
 
 <!---
 Dhamu785/Dhamu785 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
