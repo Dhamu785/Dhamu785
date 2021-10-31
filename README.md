@@ -1,4 +1,4 @@
-# [Hello](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif)
+# Hello![alt text](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif)
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
 - 🐍 Intermediate at python. 
