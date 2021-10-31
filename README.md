@@ -4,7 +4,7 @@
 - 🍃 Know basics in flutter and dart languages. 
 - 🌱 I’m currently learning Data analytics professional certificate @Google.
 - 📫 How to reach me mail 'dhamodharan1888@gmail.com'
-- 📇 Data analytics 
+- 📇 Data analyst
 
 <!---
 Dhamu785/Dhamu785 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
