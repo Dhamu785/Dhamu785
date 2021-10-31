@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="100" height="50">
+# Hello <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50" height="50">
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
 - 🐍 Intermediate at python. 
