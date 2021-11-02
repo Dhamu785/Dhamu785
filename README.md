@@ -2,10 +2,11 @@
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
 - 🐍 Intermediate at python. 
-- 🍃 Know basics in flutter and dart languages. 
-- 🌱 I’m currently learning Data analytics professional certificate @Google.
-- 📫 How to reach me mail 'dhamodharan1888@gmail.com'
+- 🍃 Know basics in flutter and dart languages.
 - 📇 Data analyst
+
+### Contact
+📫 dhamodharan1888@gmail.com
 
 <!---
 Dhamu785/Dhamu785 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
