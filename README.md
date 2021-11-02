@@ -31,7 +31,7 @@
   
 </p>
 <p align="center">
-<img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/stat.png" height=28/> 
+<a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/stat.png" height=28/> </a>
   
 </p>
 
