@@ -14,7 +14,11 @@
 # Skills
 
 <p align="center">
-<img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/html.png" height=28/> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/css.png" height=28 /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28  /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c.png" height=28 />  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28 />
+  <a hreh="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/html.png" height=28/> </a>
+  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/css.png" height=28 /> 
+  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28  /> 
+  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c.png" height=28 />  
+  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28 />
   <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/github.png" height=28 />
 </p>
 <p align="center">
