@@ -14,16 +14,22 @@
 # Skills
 
 <p align="center">
-<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>  <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/html.png" height=28/> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/css.png" height=28 /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28  /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c.png" height=28 />  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28 />
+  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/github.png" height=28 />
+</p>
+<p align="center">
+<img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/sqll.png" height=28/> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/python.png" height=28 /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/tab.png" height=28  /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/spreadsheet.png" height=28 />  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/minitab.png" height=28 />
+  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/jmp.png" height=28 />
+  
+</p>
+<p align="center">
+<img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/stat.png" height=28/> 
+  
 </p>
 
-- 👋 Hi, I’m @Dhamodharan
-- 👀 I’m interested in Python
-- 🐍 Intermediate at python. 
-- 🍃 Know basics in flutter and dart languages.
-- 📇 Data analyst
+<hr>
 
-### Contact
+# Contact
 📫 dhamodharan1888@gmail.com
 <a href="https://discord.gg/XTW52Kt">
   <img align="left" alt="Abhishek's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
