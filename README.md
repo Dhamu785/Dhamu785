@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Dhamodharan</h1>
+<h1 align="center">Hello there 👋, I'm Dhamodharan</h1>
 <h3 align="center"><em>Role: Data Analyst and Python Developer</em></h3>
 <hr>
 <img width="75%" align="middle" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
@@ -9,6 +9,7 @@
   <a href="https://github.com/Dhamu785?tab=repositories">Check it </a>. I have attached my skills, project names and contact information below.
   
 </h4>
+<hr>
 
 
 
