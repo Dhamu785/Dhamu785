@@ -1,6 +1,5 @@
 <h1 align="center">Hello there 👋, I'm Dhamodharan</h1>
 <h3 align="center"><em>Role: Data Analyst and Python Developer</em></h3>
-[About Me](#Skills)
 <hr>
 <img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 <h4>Hi I'm <i>Dhamodharan</i>, Studying 3rd year B.Tech degree in Nano Science and Technology. I have completed my Data 
@@ -12,7 +11,11 @@
 </h4>
 <hr>
 
-## Skills
+# Skills
+
+<p align="center">
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>  <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
