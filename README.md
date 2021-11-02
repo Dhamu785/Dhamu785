@@ -15,15 +15,19 @@
 
 <p align="center">
   <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/html.png" height=28/> </a>
-  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/css.png" height=28 /> 
-  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28  /> 
-  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c.png" height=28 />  
-  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28 />
-  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/github.png" height=28 />
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/css.png" height=28 /> </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28  /> </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c.png" height=28 /> </a> 
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28 /></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/github.png" height=28 /></a>
 </p>
 <p align="center">
-<img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/sqll.png" height=28/> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/python.png" height=28 /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/tab.png" height=28  /> <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/spreadsheet.png" height=28 />  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/minitab.png" height=28 />
-  <img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/jmp.png" height=28 />
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/sqll.png" height=28/> </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/python.png" height=28 /></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/tab.png" height=28  /> </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/spreadsheet.png" height=28 />  </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/minitab.png" height=28 /></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/jmp.png" height=28 /></a>
   
 </p>
 <p align="center">
