@@ -1,7 +1,14 @@
 <h1 align="center">Hi 👋, I'm Dhamodharan</h1>
-<h3 align="center">Data Analyst</h3>
-
-
+<h3 align="center"><em>Role: Data Analyst and Python Developer</em></h3>
+<hr>
+<img width="75%" align="middle" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
+<h4>Hi I'm <i>Dhamodharan</i>, Studying 3rd year B.Tech degree in Nano Science and Technology. I have completed my Data 
+  Analytics professional course at Google on Coursera. Now I'm doing projects on what I have learnt from that course and I have little experience in 
+  collecting, organizing and interpreting the data. Energetic presenter and confident communicator with the ability to circulate information in a way that is clear, 
+  efficient, and beneficial for end users.Creative in finding solutions to problems and determining modifications for optimal use of organizational data. In addition   to this I'm very curious to explore Machine learning and Artificial intelligence. I also did some projects using HTML, CSS, Dart, Flutter and Python.
+  <a href="https://github.com/Dhamu785?tab=repositories">Check it </a>. I have attached my skills, project names and contact information below.
+  
+</h4>
 
 
 
