@@ -1,7 +1,8 @@
 <h1 align="center">Hello there 👋, I'm Dhamodharan</h1>
 <h3 align="center"><em>Role: Data Analyst and Python Developer</em></h3>
+[About Me](#Skills)
 <hr>
-<img width="75%" align="middle" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
+<img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 <h4>Hi I'm <i>Dhamodharan</i>, Studying 3rd year B.Tech degree in Nano Science and Technology. I have completed my Data 
   Analytics professional course at Google on Coursera. Now I'm doing projects on what I have learnt from that course and I have little experience in 
   collecting, organizing and interpreting the data. Energetic presenter and confident communicator with the ability to circulate information in a way that is clear, 
@@ -11,7 +12,7 @@
 </h4>
 <hr>
 
-
+## Skills
 
 - 👋 Hi, I’m @Dhamodharan
 - 👀 I’m interested in Python
