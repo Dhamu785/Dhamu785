@@ -8,6 +8,7 @@
   collecting, organizing and interpreting the data. Energetic presenter and confident communicator with the ability to circulate information in a way that is clear, 
   efficient, and beneficial for end users.Creative in finding solutions to problems and determining modifications for optimal use of organizational data. In addition   to this I'm very curious to explore Machine learning and Artificial intelligence. I also did some projects using HTML, CSS, Dart, Flutter and Python.
   <a href="https://github.com/Dhamu785?tab=repositories">Check it </a>. I have attached my skills, project names and contact information below.
+  <a href="https://www.youtube.com/channel/UCUq9cgFrV83X-AxG3JLOuiA/videos">YOU TUBE</a>
   
 </h4>
 <hr>
