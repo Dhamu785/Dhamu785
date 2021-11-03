@@ -47,26 +47,26 @@
     <th colspan="3">PYTHON</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Keylogger" target="_blank"> Keylogger</a></td>
-    <td><a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank"> Mouse-Automation</a></td>
+    <td><a href="https://github.com/Dhamu785/Keylogger" target="_blank"> <i>Keylogger</i></a></td>
+    <td><a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank"><i> Mouse-Automation</i></a></td>
     
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> File-arranging</a></td>
-    <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> Image-downloader</a></td>
+    <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> <i>File-arranging</i></a></td>
+    <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> <i>Image-downloader</i></a></td>
     
   </tr>
     <tr>
-    <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> Encrypt-and-Decrypt-your-messages</a></td>
-      <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank"> Location-Tracking</a></td>
+    <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> <i>Encrypt-and-Decrypt-your-messages</i></a></td>
+      <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank"> <i>Location-Tracking</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank"> Password-Generator</a></td>
-      <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank"> YouTube-Video-Downloader</a></td>
+    <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank"> <i>Password-Generator</i></a></td>
+      <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank"><i> YouTube-Video-Downloader</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"> Online-video-downloader</a></td>
-      <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> Url-Scanner</a></td>
+    <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"><i> Online-video-downloader</i></a></td>
+      <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> <i>Url-Scanner</i></a></td>
   </tr>
 </table> 
 
@@ -75,7 +75,7 @@
     <th>Flutter and Dart</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank"> Calculator-using-Flutter</a></td>
+    <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank"><i> Calculator-using-Flutter</i></a></td>
   </tr>
 </table>
 
@@ -84,7 +84,7 @@
     <th>HTML and CSS</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> Browser-customized-interface</a></td>
+    <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> <i>Browser-customized-interface</i></a></td>
   </tr>
 </table>
 
@@ -93,7 +93,7 @@
     <th>Data Analytics Course</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank"> Important Takeaways from Data Analytics course at Google</a></td>
+    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank"> <i>Important Takeaways from Data Analytics course at Google</i></a></td>
   </tr>
 </table>
 
