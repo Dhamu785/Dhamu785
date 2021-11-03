@@ -103,22 +103,25 @@
 
 
 
+
 # Contact
 <a href="https://www.instagram.com/dhamu_pythonista/">
-  <img align="left" alt="My Insta page" width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/logo-ig-png-32473.png" />
+  <img align="left"  width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/logo-ig-png-32473.png" />
 </a>
 <a href="mailto:dhamodharan1888@gmail.com">
-  <img align="left" alt="My Insta page" width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/envelope-22254.png" />
+  <img align="left"  width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/envelope-22254.png" />
 </a>
 <a href="https://www.linkedin.com/in/dhamodharan-r-10875a212/">
-  <img align="left" alt="My Insta page" width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/linkedin-logo-png-1854.png" />
+  <img align="left"  width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/linkedin-logo-png-1854.png" />
 </a>
 
 
+ <hr>
+ <hr>
+ <hr>
  
  
- 
- 
+ <h1 align="center">Thank you : )</h1>
  
  
 <!---
