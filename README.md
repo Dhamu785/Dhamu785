@@ -96,7 +96,7 @@
   </tr>
 </table>
 
-
+<hr>
 
 
 
@@ -109,15 +109,14 @@
 <a href="mailto:dhamodharan1888@gmail.com">
   <img align="left" alt="My Insta page" width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/envelope-22254.png" />
 </a>
-</a>
 <a href="https://www.linkedin.com/in/dhamodharan-r-10875a212/">
   <img align="left" alt="My Insta page" width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/linkedin-logo-png-1854.png" />
 </a>
 
 
 
- <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
- 
+ <img class="gif" align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" />
+
  
  
  
