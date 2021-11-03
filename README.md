@@ -42,7 +42,7 @@
 <a href="https://www.instagram.com/dhamu_pythonista/">
   <img align="left" alt="My Insta page" width="22px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/logo-ig-png-32473.png" />
 </a>
-<a href="dhamodharan1888@gmail.com">
+<a href="mailto:dhamodharan1888@gmail.com">
   <img align="left" alt="My Insta page" width="22px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/envelope-22254.png" />
 </a>
 
