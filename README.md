@@ -1,5 +1,5 @@
 <h1 align="center">Hello there 👋, I'm Dhamodharan</h1>
-<h3 align="center"><em>Role: Data Analyst and Python Developer</em></h3>
+<h3 align="center"><em>Role: Data Analyst and Pythonista</em></h3>
 <hr>
 <h1>About</h1>
 <img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
