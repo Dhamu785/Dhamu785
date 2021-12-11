@@ -92,10 +92,13 @@
 
 <table>
   <tr>
-    <th>Data Analytics Course</th>
+    <th>Data Analytics </th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank"> <i>Important Takeaways from Data Analytics course at Google</i></a></td>
+    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank"> <i>Course: Important Takeaways from Data Analytics course at Google</i></a></td>
+    <tr>
+    <td><a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank"> <i>COVID19 Visuvalization</i></a></td>
+  </tr>
   </tr>
 </table>
 
