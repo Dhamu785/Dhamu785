@@ -49,25 +49,29 @@
 
  <table>
   <tr>
-    <th colspan="3">PYTHON</th>
+    <th colspan="2">PYTHON</th>
+     <th colspan="2">PY-TUTORIALS</th>
   </tr>
   <tr>
     <td><a href="https://github.com/Dhamu785/Keylogger" target="_blank"> <i>Keylogger</i></a></td>
     <td><a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank"><i> Mouse-Automation</i></a></td>
-    
+    <td><a href="https://github.com/Dhamu785/DataBase" target="_blank"><i> DataBase </i></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> <i>File-arranging</i></a></td>
     <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> <i>Image-downloader</i></a></td>
+    <td><a href="https://github.com/Dhamu785/API_Tutorials" target="_blank"> <i>API</i></a></td>
     
   </tr>
     <tr>
-    <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> <i>Encrypt-and-Decrypt-your-messages</i></a></td>
-      <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank"> <i>Location-Tracking</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> <i>Encrypt-and-Decrypt-your-messages</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank"> <i>Location-Tracking</i></a></td>
+     <td><a href="https://github.com/Dhamu785/AWS_Tutorials" target="_blank"> <i>AWS</i></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank"> <i>Password-Generator</i></a></td>
-      <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank"><i> YouTube-Video-Downloader</i></a></td>
+     <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank"><i> YouTube-Video-Downloader</i></a></td>
+       <td><a href="https://github.com/Dhamu785/AI-scratch" target="_blank"> <i>AI</i></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"><i> Online-video-downloader</i></a></td>
