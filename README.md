@@ -44,12 +44,12 @@
 <hr>
 
 <h1>My Repositories</h1>
-<img class="gif" align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" />
+<!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 
 
  <table>
   <tr>
-    <th colspan="2">PYTHON</th>
+    <th colspan="2">PYTHON PROJECTS</th>
      <th colspan="2">PY-TUTORIALS</th>
   </tr>
   <tr>
@@ -60,7 +60,7 @@
   <tr>
     <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> <i>File-arranging</i></a></td>
     <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> <i>Image-downloader</i></a></td>
-    <td><a href="https://github.com/Dhamu785/API_Tutorials" target="_blank"> <i>API</i></a></td>
+    <td><a href="https://github.com/Dhamu785/API_Tutorials" target="_blank"> <i>API-Postman</i></a></td>
     
   </tr>
     <tr>
@@ -71,44 +71,41 @@
   <tr>
     <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank"> <i>Password-Generator</i></a></td>
      <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank"><i> YouTube-Video-Downloader</i></a></td>
-       <td><a href="https://github.com/Dhamu785/AI-scratch" target="_blank"> <i>AI</i></a></td>
+       <td><a href="https://github.com/Dhamu785/AI-scratch" target="_blank"> <i>Artificial Intelligence</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"><i> Online-video-downloader</i></a></td>
-      <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> <i>Url-Scanner</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"><i> Online-video-downloader</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> <i>Url-Scanner</i></a></td>
+     <td><a href="" target="_blank"> <i>-</i></a></td>
+  </tr>
+  <tr>
+     <td><a href="https://github.com/Dhamu785/Aptitude-D" target="_blank"><i> Aptitude-D </i></a></td>
+     <td><a href="https://github.com/Dhamu785/PyDMath" target="_blank"> <i>PyDMath</i></a></td>
+     <td><a href="" target="_blank"> <i>-</i></a></td>
   </tr>
 </table> 
 
 <table>
   <tr>
-    <th>Flutter and Dart</th>
+     <th>Flutter and Dart</th>
+     <th>HTML and CSS</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank"><i> Calculator-using-Flutter</i></a></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>HTML and CSS</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> <i>Browser-customized-interface</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank"><i> Calculator-using-Flutter</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> <i>Browser-customized-interface</i></a></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <th>Data Analytics </th>
+     <th>Data Analytics-Course </th>
+     <th>Projects</th>
   </tr>
   <tr>
     <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank"> <i>Course: Important Takeaways from Data Analytics course at Google</i></a></td>
-    <tr>
-    <td><a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank"> <i>COVID19 Visuvalization</i></a></td>
-  </tr>
+     <td><a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank"> <i>COVID19 Visuvalization</i></a></td>
   </tr>
 </table>
-
 <hr>
 
 
