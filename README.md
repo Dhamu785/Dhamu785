@@ -4,7 +4,7 @@
 <h1>About</h1>
 <img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" 
      style="align:center">
-<h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <i> Hi I'm <i>Dhamodharan</i>, (B.Tech in Nano Science and Technology). I have completed my Data Analytics professional course at Google on Coursera. Now I'm doing projects on what I have learnt from that course and I have little experience in collecting, organizing and interpreting the data. Energetic presenter and confident communicator with the ability to circulate information in a way that is clear, efficient, and beneficial for end users.Creative in finding solutions to problems and determining modifications for optimal use of organizational data. In addition   to this I'm very curious to explore Machine learning and Artificial intelligence. I also did some projects using HTML, CSS, Dart, Flutter and Python.
+<h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <i> Hi I'm <i>Dhamodharan</i>, (B.Tech Nano Science and Technology). I have completed my Data Analytics professional course at Google on Coursera. Now I'm doing projects on what I have learnt from that course and I have little experience in collecting, organizing and interpreting the data. Energetic presenter and confident communicator with the ability to circulate information in a way that is clear, efficient, and beneficial for end users.Creative in finding solutions to problems and determining modifications for optimal use of organizational data. In addition   to this I'm very curious to explore Machine learning and Artificial intelligence. I also did some projects using HTML, CSS, Dart, Flutter and Python.
   <a href="https://github.com/Dhamu785?tab=repositories">Check it </a>. I have attached my skills, project names and contact information below.
   <a href="https://www.youtube.com/channel/UCUq9cgFrV83X-AxG3JLOuiA/videos">YOU TUBE</a></i>
   
@@ -54,34 +54,34 @@
      <th colspan="2">PY-TUTORIALS</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Keylogger" target="_blank"> <i>Keylogger</i></a></td>
-    <td><a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank"><i> Mouse-Automation</i></a></td>
-    <td><a href="https://github.com/Dhamu785/DataBase" target="_blank"><i> DataBase </i></a></td>
+    <td><a href="https://github.com/Dhamu785/Keylogger" target="_blank"> Keylogger</a></td>
+    <td><a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank"> Mouse-Automation</a></td>
+    <td><a href="https://github.com/Dhamu785/DataBase" target="_blank"> DataBase </a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> <i>File-arranging</i></a></td>
-    <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> <i>Image-downloader</i></a></td>
-    <td><a href="https://github.com/Dhamu785/API_Tutorials" target="_blank"> <i>API-Postman</i></a></td>
+    <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> File-arranging</a></td>
+    <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> Image-downloader</a></td>
+    <td><a href="https://github.com/Dhamu785/API_Tutorials" target="_blank"> API-Postman</a></td>
     
   </tr>
     <tr>
-     <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> <i>Encrypt-and-Decrypt-your-messages</i></a></td>
-     <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank"> <i>Location-Tracking</i></a></td>
-     <td><a href="https://github.com/Dhamu785/AWS_Tutorials" target="_blank"> <i>AWS</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> Encrypt-and-Decrypt-your-messages</a></td>
+     <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank">Location-Tracking</a></td>
+     <td><a href="https://github.com/Dhamu785/AWS_Tutorials" target="_blank">AWS</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank"> <i>Password-Generator</i></a></td>
-     <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank"><i> YouTube-Video-Downloader</i></a></td>
-       <td><a href="https://github.com/Dhamu785/AI-scratch" target="_blank"> <i>Artificial Intelligence</i></a></td>
+    <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank">Password-Generator</a></td>
+     <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank">YouTube-Video-Downloader</a></td>
+       <td><a href="https://github.com/Dhamu785/AI-scratch" target="_blank">Artificial Intelligence</a></td>
   </tr>
   <tr>
-     <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"><i> Online-video-downloader</i></a></td>
-     <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> <i>Url-Scanner</i></a></td>
-     <td><a href="https://github.com/Dhamu785/Algorithms" target="_blank"> <i>Algorithms</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"> Online-video-downloader</a></td>
+     <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> Url-Scanner</a></td>
+     <td><a href="https://github.com/Dhamu785/Algorithms" target="_blank"> Algorithms</a></td>
   </tr>
   <tr>
-     <td><a href="https://github.com/Dhamu785/Aptitude-D" target="_blank"><i> Aptitude-D </i></a></td>
-     <td><a href="https://github.com/Dhamu785/PyDMath" target="_blank"> <i>PyDMath</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Aptitude-D" target="_blank">Aptitude-D</a></td>
+     <td><a href="https://github.com/Dhamu785/PyDMath" target="_blank"> PyDMath</a></td>
      <td><a href="" target="_blank"> <i>-</i></a></td>
   </tr>
 </table> 
@@ -92,8 +92,8 @@
      <th>HTML and CSS</th>
   </tr>
   <tr>
-     <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank"><i> Calculator-using-Flutter</i></a></td>
-     <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> <i>Browser-customized-interface</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank">Calculator-using-Flutter</a></td>
+     <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> Browser-customized-interface</a></td>
   </tr>
 </table>
 
@@ -103,8 +103,8 @@
      <th>Projects</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank"> <i>Course: Important Takeaways from Data Analytics course at Google</i></a></td>
-     <td><a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank"> <i>COVID19 Visuvalization</i></a></td>
+    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank">Course: Important Takeaways from Data Analytics course at Google</a></td>
+     <td><a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank">COVID19 Visuvalization</a></td>
   </tr>
 </table>
 <hr>
