@@ -16,18 +16,18 @@
 <p align="center">
   <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/html.png" height=28/> </a>
   <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/css.png" height=28 /> </a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28  /> </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/fire.png" height=28/> </a>
   <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c.png" height=28 /> </a> 
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28 /></a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/github.png" height=28 /></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/c%2B%2B.png" height=28/></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/github.png" height=28/></a>
 </p>
 <p align="center">
   <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/sqll.png" height=28/> </a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/python.png" height=28 /></a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/tab.png" height=28  /> </a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/spreadsheet.png" height=28 />  </a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/minitab.png" height=28 /></a>
-  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/jmp.png" height=28 /></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/python.png" height=28/></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/tab.png" height=28/> </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/spreadsheet.png" height=28/>  </a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/minitab.png" height=28/></a>
+  <a href="https://github.com/Dhamu785"><img src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/jmp.png" height=28/></a>
   
 </p>
 <p align="center">
@@ -37,8 +37,9 @@
 
 <hr>
 
-<h1>My websites</h1>
-<ul> <li><a href="https://covid-19-website-3f3c2.firebaseapp.com/"><i>COVID-19 Daily updates</i></a> </li></ul> 
+<h1>🔴 live websites </h1>
+<ul> <li><a href="https://covid-19-website-3f3c2.firebaseapp.com/">COVID-19 Daily updates</a> </li></ul>
+<ul> <li><a href="https://ksrct-internationalconference.nicepage.io/Home.html">International conference</a></li></ul>
 
 
 <hr>
@@ -76,7 +77,7 @@
   <tr>
      <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"><i> Online-video-downloader</i></a></td>
      <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> <i>Url-Scanner</i></a></td>
-     <td><a href="" target="_blank"> <i>-</i></a></td>
+     <td><a href="https://github.com/Dhamu785/Algorithms" target="_blank"> <i>Algorithms</i></a></td>
   </tr>
   <tr>
      <td><a href="https://github.com/Dhamu785/Aptitude-D" target="_blank"><i> Aptitude-D </i></a></td>
