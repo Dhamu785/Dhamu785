@@ -40,7 +40,8 @@
 <h1>🔴 live websites </h1>
 <ul> <li><a href="https://covid-19-website-3f3c2.firebaseapp.com/">COVID-19 Daily updates</a> </li></ul>
 <ul> <li><a href="https://ksrct-internationalconference.nicepage.io/Home.html">International conference</a> for college</li></ul>
-
+<ul><li><a href="https://demo-dashboard.streamlit.app/">Machine and work analysis</a></li></ul>
+<ul><li><a href="https://dash-board-2cdorme8vcjdshdfzhru9j.streamlit.app/">Sales report</a></li></ul>
 
 <hr>
 
