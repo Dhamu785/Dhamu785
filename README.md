@@ -1,14 +1,19 @@
 <h1 align="center">Hello there 👋, I'm Dhamodharan</h1>
-<h3 align="center">Role: Data Scientist and AI Developer</h3>
+<h3 align="center">Role: Machine learning engineer</h3>
 <hr>
-<h1>About</h1>
-<img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" 
-     style="align:center">
-<h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Hi I'm <i>Dhamodharan</i>, (B.Tech Nano Science and Technology). I have completed my Data Analytics professional course at Google on Coursera. Now I'm doing projects on what I have learnt from that course and I have experience in collecting, organizing and interpreting the data. Energetic presenter and confident communicator with the ability to circulate information in a way that is clear, efficient, and beneficial for end users.Creative in finding solutions to problems and determining modifications for optimal use of organizational data. In addition to this I'm very curious to explore Machine learning and Artificial intelligence. I also did some projects using HTML, CSS, Dart, Flutter and Python.
-  <a href="https://github.com/Dhamu785?tab=repositories">Check it </a>. I have attached my skills, project names and contact information below.
-  <a href="https://www.youtube.com/channel/UCUq9cgFrV83X-AxG3JLOuiA/videos">YOU TUBE</a>
-  
-</h4>
+<h3>About</h3>
+<!-- <img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" 
+     style="align:center"> -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hi I'm Dhamodharan, Creative in finding solutions to problems and determining modifications for optimal use of organisational data. Let's utilise the power of randomness.
+<h3>Work Experience</h3>
+<ul>
+     <li>CAD drawing similarity search by object detection for removing template and Auto-encoders for feature extraction. Vector similarity search for faster data retrieval.      </li>
+     <li>Labour monitoring system with Transfer learning and Computer-vision.</li>
+     <li>Quotation price prediction with data cleaning and Machine learning.</li>
+</ul>
+     
+<h3>Personal Experience</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I also did some projects using HTML, CSS, Dart, Flutter and Python.<a href="https://github.com/Dhamu785?tab=repositories">Check it </a>. I have attached my skills, project names and contact information below.<a href="https://www.youtube.com/channel/UCUq9cgFrV83X-AxG3JLOuiA/videos">YOU TUBE</a>
 <hr>
 
 # Skills
