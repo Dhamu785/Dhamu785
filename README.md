@@ -50,73 +50,39 @@
 
 <hr>
 
-<h1>My Repositories</h1>
+<h1>My Projects (old to newest)</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
+<h2>01. Machine learning</h2>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel semantic segmentation with class weights</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/semantic-segmentation-using-u-net" target="_blank">Semantic segmentation using U-Net from scratch</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/autoencoders-for-denoising" target="_blank">Autoencoders for denoising</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/digits-recognizer-1-2-3-4-5-6-7-8-9" target="_blank">Digits-recognizer</a>1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣</li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/machine-learning-in-agriculture" target="_blank">Machine learning in agriculture</a>🍇🌾</li></ul>
+<h2>02. Data science</h2>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/feature-selection-complete-guide-part-1" target="_blank">Feature selection complete guide</a> 🎡🎯</li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/best-jio-prepaid-plan" target="_blank">Best Jio Prepaid plan</a> 📞📱📱</li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/causes-of-deaths" target="_blank">Causes of deaths</a> 💀💀💀</li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/per-capita-electricity-consumption-all-countries" target="_blank">Per capita electricity consumption-All countries</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/covid-cases-india" target="_blank">Covid case analysis</a>, <a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank">COVID19 Visuvalization</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/titanic-mechine-learning-from-disaster" target="_blank">Titanic dataset</a></li></ul>
+<h2>03. Python</h2>
+⭐<a href="https://github.com/Dhamu785/Keylogger" target="_blank">Keylogger</a> , 
+⭐<a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank">Mouse-Automation</a> ,
+⭐<a href="https://github.com/Dhamu785/File-arranging-" target="_blank">File-arranging</a> , 
+⭐<a href="https://github.com/Dhamu785/Image-downloader" target="_blank">Image-downloader</a> , 
+⭐<a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank">Encrypt-and-Decrypt-your-messages</a> , 
+⭐<a href="https://github.com/Dhamu785/Location-Tracking" target="_blank">Location-Tracking</a> , 
+⭐<a href="https://github.com/Dhamu785/Password-Generator" target="_blank">Password-Generator</a> , 
+⭐<a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank">YouTube-Video-Downloader</a> , 
+⭐<a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank">Online-video-downloader</a> , 
+⭐<a href="https://github.com/Dhamu785/Url-Scanner" target="_blank">Url-Scanner</a>
+ <br><br>
+<b>Published library : </b>Library to solve aptitude problems - <a href="https://github.com/Dhamu785/PyDMath" target="_blank">GitHub</a> , <a href="https://github.com/Dhamu785/PyDMath" target="_blank">pip</a>
 
 
- <table>
-  <tr>
-    <th colspan="2">PYTHON PROJECTS</th>
-     <th colspan="2">PY-TUTORIALS</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Dhamu785/Keylogger" target="_blank"> Keylogger</a></td>
-    <td><a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank"> Mouse-Automation</a></td>
-    <td><a href="https://github.com/Dhamu785/DataBase" target="_blank"> DataBase </a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Dhamu785/File-arranging-" target="_blank"> File-arranging</a></td>
-    <td><a href="https://github.com/Dhamu785/Image-downloader" target="_blank"> Image-downloader</a></td>
-    <td><a href="https://github.com/Dhamu785/API_Tutorials" target="_blank"> API-Postman</a></td>
-    
-  </tr>
-    <tr>
-     <td><a href="https://github.com/Dhamu785/Encrypt-and-Decrypt-your-messages" target="_blank"> Encrypt-and-Decrypt-your-messages</a></td>
-     <td><a href="https://github.com/Dhamu785/Location-Tracking" target="_blank">Location-Tracking</a></td>
-     <td><a href="https://github.com/Dhamu785/AWS_Tutorials" target="_blank">AWS</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Dhamu785/Password-Generator" target="_blank">Password-Generator</a></td>
-     <td><a href="https://github.com/Dhamu785/YouTube-Video-Downloader" target="_blank">YouTube-Video-Downloader</a></td>
-       <td><a href="https://github.com/Dhamu785/AI-scratch" target="_blank">Artificial Intelligence</a></td>
-  </tr>
-  <tr>
-     <td><a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank"> Online-video-downloader</a></td>
-     <td><a href="https://github.com/Dhamu785/Url-Scanner" target="_blank"> Url-Scanner</a></td>
-     <td><a href="https://github.com/Dhamu785/Algorithms" target="_blank"> Algorithms</a></td>
-  </tr>
-  <tr>
-     <td><a href="https://github.com/Dhamu785/Aptitude-D" target="_blank">Aptitude-D</a></td>
-     <td><a href="https://github.com/Dhamu785/PyDMath" target="_blank"> PyDMath</a></td>
-     <td><a href="" target="_blank"> <i>-</i></a></td>
-  </tr>
-</table> 
-
-<table>
-  <tr>
-     <th>Flutter and Dart</th>
-     <th>HTML and CSS</th>
-  </tr>
-  <tr>
-     <td><a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank">Calculator-using-Flutter</a></td>
-     <td><a href="https://github.com/Dhamu785/Browser-customized-interface" target="_blank"> Browser-customized-interface</a></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-     <th>Data Analytics-Course </th>
-     <th>Projects</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Dhamu785/Important-takeaway-Google-data-analytics-professional-certificate" target="_blank">Course: Important Takeaways from Data Analytics course at Google</a></td>
-     <td><a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank">COVID19 Visuvalization</a></td>
-  </tr>
-</table>
-<hr>
-
-
-
+<h2>04. Flutter</h2>
+<b>App</b> - <a href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank">Calculator-using-Flutter</a>
 
 
 
@@ -130,14 +96,12 @@
 <a href="https://www.linkedin.com/in/dhamodharan-r-10875a212/">
   <img align="left"  width="32px" src="https://github.com/Dhamu785/Browser-customized-interface/blob/Imagea/images/web%20images/linkedin-logo-png-1854.png" />
 </a>
+<br>
 
-
- <hr>
- <hr>
- <hr>
+<hr>
  
  
- <h3 align="center"><em>Thank you : )</em></h3>
+ <h3 align="center"><b>Thank you ✨</b></h3>
  
  
 <!---
