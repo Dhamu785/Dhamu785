@@ -50,7 +50,7 @@
 
 <hr>
 
-<h1>My Projects (old to newest)</h1>
+<h1>Personal Projects (old to newest)</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning</h2>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a></li></ul>
@@ -63,9 +63,9 @@
 <ul><li><a href="https://www.kaggle.com/code/dhamur/feature-selection-complete-guide-part-1" target="_blank">Feature selection complete guide</a> 🎡🎯</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/best-jio-prepaid-plan" target="_blank">Best Jio Prepaid plan</a> 📞📱📱</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/causes-of-deaths" target="_blank">Causes of deaths</a> 💀💀💀</li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/per-capita-electricity-consumption-all-countries" target="_blank">Per capita electricity consumption-All countries</a></li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/covid-cases-india" target="_blank">Covid case analysis</a>, <a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank">COVID19 Visuvalization</a></li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/titanic-mechine-learning-from-disaster" target="_blank">Titanic dataset</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/per-capita-electricity-consumption-all-countries" target="_blank">Per capita electricity consumption-All countries🔌💡</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/covid-cases-india" target="_blank">Covid case analysis</a>, <a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank">COVID19 Visuvalization</a> 🦠🦠</li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/titanic-mechine-learning-from-disaster" target="_blank">Titanic dataset</a> 🛳️🚢</li></ul>
 <h2>03. Python</h2>
 ⭐<a href="https://github.com/Dhamu785/Keylogger" target="_blank">Keylogger</a> , 
 ⭐<a href="https://github.com/Dhamu785/Mouse-Automation" target="_blank">Mouse-Automation</a> ,
