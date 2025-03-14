@@ -62,8 +62,8 @@
 <h2>02. Data science 📑</h2>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/feature-selection-complete-guide-part-1" target="_blank">Feature selection complete guide</a> 🎡🎯</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/best-jio-prepaid-plan" target="_blank">Best Jio Prepaid plan</a> 📞📱📱</li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/causes-of-deaths" target="_blank">Causes of deaths</a> 💀💀💀</li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/per-capita-electricity-consumption-all-countries" target="_blank">Per capita electricity consumption-All countries🔌💡</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/causes-of-deaths" target="_blank">Causes of deaths</a> 💀💀💀 due to various diseases including Road injuries, Nutritional deficiencies, etc...</li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/per-capita-electricity-consumption-all-countries" target="_blank">Per capita electricity consumption All countries</a>🔌💡</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/covid-cases-india" target="_blank">Covid case analysis</a>, <a href="https://github.com/Dhamu785/COVID19-Data-visualization-" target="_blank">COVID19 Visuvalization</a> 🦠🦠</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/titanic-mechine-learning-from-disaster" target="_blank">Titanic dataset</a> 🛳️🚢</li></ul>
 <h2>03. Python</h2>
