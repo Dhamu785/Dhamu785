@@ -50,10 +50,10 @@
 
 <hr>
 
-<h1>Personal Projects (old to newest)</h1>
+<h1>Personal Projects (newest to old)</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning 🤖</h2>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a></li></ul>
+<ul><li><a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a> - used various pre-trained model weights as backbone to train the unet.</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel semantic segmentation with class weights</a></li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/semantic-segmentation-using-u-net" target="_blank">Semantic segmentation using U-Net from scratch</a></li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/autoencoders-for-denoising" target="_blank">Autoencoders for denoising</a></li></ul>
