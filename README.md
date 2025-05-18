@@ -78,7 +78,7 @@
 ⭐<a href="https://github.com/Dhamu785/Online-video-downloader" target="_blank">Online-video-downloader</a> , 
 ⭐<a href="https://github.com/Dhamu785/Url-Scanner" target="_blank">Url-Scanner</a>
  <br><br>
-<b>Published library : </b>Library to solve aptitude problems - <a href="https://github.com/Dhamu785/PyDMath" target="_blank">GitHub</a> , <a href="https://github.com/Dhamu785/PyDMath" target="_blank">pip</a>
+<b>Published library : </b>Library to solve aptitude problems - <a href="https://github.com/Dhamu785/PyDMath" target="_blank">GitHub</a> , <a href="https://pypi.org/project/numbersD/" target="_blank">pip</a>
 
 
 <h2>04. Flutter</h2>
