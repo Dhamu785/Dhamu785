@@ -53,9 +53,7 @@
 <h1>Personal Projects (newest to old)</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning 🤖</h2>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a> - used various pre-trained model weights as backbone to train the unet.</li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel semantic segmentation with class weights</a></li></ul>
-<ul><li><a href="https://www.kaggle.com/code/dhamur/semantic-segmentation-using-u-net" target="_blank">Semantic segmentation using U-Net from scratch</a></li></ul>
+<ul><li>Using autoencoders for segmentations <a href="https://www.kaggle.com/code/dhamur/semantic-segmentation-using-u-net" target="_blank">Semantic segmentation using U-Net from scratch</a>, <a href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel semantic segmentation with class weights</a> and <a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a> - used various pre-trained model weights as backbone to train the unet.</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/autoencoders-for-denoising" target="_blank">Autoencoders for denoising</a></li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/digits-recognizer-1-2-3-4-5-6-7-8-9" target="_blank">Digits-recognizer</a>1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣</li></ul>
 <ul><li><a href="https://www.kaggle.com/code/dhamur/machine-learning-in-agriculture" target="_blank">Machine learning in agriculture</a>🍇🌾</li></ul>
