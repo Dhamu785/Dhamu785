@@ -1,5 +1,5 @@
 <h1 align="center">Hello there 👋, I'm Dhamodharan</h1>
-<h3 align="center">Role: Machine learning engineer</h3>
+<h3 align="center">Role: Machine learning Developer</h3>
 <hr>
 <h3>About</h3>
 <!-- <img width="75%" align="center" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" 
@@ -50,7 +50,7 @@
 
 <hr>
 
-<h1>Personal Projects (newest to old)</h1>
+<h1>Personal Projects Order : newest to old</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning 🤖</h2>
 <ul><li>Attention mechanisms
