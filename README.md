@@ -50,7 +50,7 @@
 
 <hr>
 
-<h1>Personal Projects Order : newest to old</h1>
+<h1>Personal Projects || Order : newest to old</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning 🤖</h2>
 <ul><li>Attention mechanisms
