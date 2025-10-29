@@ -53,19 +53,26 @@
 <h1>Personal Projects || Order : newest to old</h1>
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning 🤖</h2>
+<ul><li>Vision Transformers
+     <ul><li>SWIN transformer - <a href="https://github.com/Dhamu785/Vision-Transformers/tree/main/02_SWIN/01_From%20scratch">Git</a></li></ul>
+     <ul><li>Vision Transformers (ViT) - <a href="https://github.com/Dhamu785/Vision-Transformers/tree/main/01_ViT">Git</a></li></ul>
+</li></ul>
+
 <ul><li>Attention mechanisms
-     <ul><li><a href="https://github.com/Dhamu785/Attention/tree/main/02_Channel%20attention/01_SENet" target="_blank">Channel attention - SENet</a>, <a href="https://www.kaggle.com/code/dhamur/channel-attention-se-net" target="_blank">Kaggle Notebook</a></li></ul>
      <ul><li><a href="https://github.com/Dhamu785/Attention/tree/main/03_Spatial%20attention%20(CBAM)" target="_blank">Channel attention + Spatial attention - CBAM</a>, <a href="https://www.kaggle.com/code/dhamur/cbam-attention2" target="_blank">Kaggle Notebook</a></li></ul>
+     <ul><li><a href="https://github.com/Dhamu785/Attention/tree/main/02_Channel%20attention/01_SENet" target="_blank">Channel attention - SENet</a>, <a href="https://www.kaggle.com/code/dhamur/channel-attention-se-net" target="_blank">Kaggle Notebook</a></li></ul>
 </li></ul>
+
 <ul><li>Various image classification architectures
-     <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-inception-resnet-nb-1#1.-Inception-v1" target="_blank">Inception</a></li></ul>
-     <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-inception-resnet-nb-1#2.-ResNet" target="_blank">ResNet</a></li></ul>
-     <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-densenet-mobilenet-nb-2#1.-DenseNet" target="_blank">DenseNet</a></li></ul>
      <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-inception-resnet-nb-1#1.-Inception-v1" target="_blank">MobileNet</a></li></ul>
+     <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-densenet-mobilenet-nb-2#1.-DenseNet" target="_blank">DenseNet</a></li></ul>
+     <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-inception-resnet-nb-1#2.-ResNet" target="_blank">ResNet</a></li></ul>
+     <ul><li><a href="https://www.kaggle.com/code/dhamur/from-scratch-inception-resnet-nb-1#1.-Inception-v1" target="_blank">Inception</a></li></ul>
 </li></ul>
+
 <ul><li>Autoencoders for 
      <ul><li><a href="https://www.kaggle.com/code/dhamur/semantic-segmentation-using-u-net" target="_blank">Semantic segmentation using U-Net from scratch</a></li></ul> 
-     <ul><li><a href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel semantic segmentation with class weights</a></li></ul> 
+     <ul><li><a href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel semantic segmentation with class weights</a></li</ul> 
      <ul><li><a href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">U-Net with backbones</a> - used various pre-trained model weights as backbone to train the unet</li></ul> 
      <ul><li><a href="https://www.kaggle.com/code/dhamur/autoencoders-for-denoising" target="_blank">Autoencoders for denoising</a></li></ul></li></ul>
 </li></ul>
