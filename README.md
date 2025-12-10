@@ -54,7 +54,7 @@
 <!-- <img class="gif" align="bottom" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="25%" height="25%" /> -->
 <h2>01. Machine learning 🤖</h2>
 <ul><li>Vision Transformers
-     <ul><li>SWIN transformer - <a href="https://github.com/Dhamu785/Vision-Transformers/tree/main/02_SWIN/01_From%20scratch">Git</a></li></ul>
+     <ul><li>SWIN transformer - <a href="https://github.com/Dhamu785/Vision-Transformers/tree/main/02_SWIN/01_From%20scratch">Git</a>, <a href="https://www.kaggle.com/code/dhamur/swinv1">Kaggle</a></li></ul>
      <ul><li>Vision Transformers (ViT) - <a href="https://github.com/Dhamu785/Vision-Transformers/tree/main/01_ViT">Git</a></li></ul>
 </li></ul>
 
