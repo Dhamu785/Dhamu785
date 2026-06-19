@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhamodharan R — ML Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0B1120;
+      --bg2:      #111827;
+      --bg3:      #1a2235;
+      --text:     #E8EEFF;
+      --muted:    #7B8DB0;
+      --cyan:     #00D4FF;
+      --cyan-dim: rgba(0,212,255,0.10);
+      --amber:    #FFB347;
+      --green:    #22c55e;
+      --border:   rgba(0,212,255,0.16);
+      --radius:   14px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Inter', sans-serif; font-size: 16px;
+      line-height: 1.65; overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 16px 48px;
+      background: rgba(11,17,32,0.88); backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--cyan); letter-spacing: -0.03em; }
+    .nav-links { display: flex; gap: 28px; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--cyan); }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; padding: 120px 24px 80px;
+      position: relative; overflow: hidden;
+    }
+    canvas#neural { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.32; pointer-events: none; }
+    .hero-content { position: relative; z-index: 2; }
+    .hero-tag {
+      display: inline-block; background: var(--cyan-dim); color: var(--cyan);
+      border: 1px solid var(--border); border-radius: 999px;
+      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+      padding: 6px 20px; margin-bottom: 28px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2.8rem, 7vw, 5.5rem); font-weight: 700; letter-spacing: -0.04em; line-height: 1.05;
+      background: linear-gradient(135deg, #ffffff 30%, var(--cyan) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      margin-bottom: 20px;
+    }
+    .hero-sub { font-size: clamp(0.95rem, 1.8vw, 1.15rem); color: var(--muted); max-width: 600px; margin: 0 auto 16px; line-height: 1.75; }
+    .hero-meta { display: flex; justify-content: center; gap: 28px; margin-bottom: 44px; flex-wrap: wrap; }
+    .hero-meta span { font-size: 0.82rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .hero-meta span::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--cyan); }
+    .hero-stats { display: flex; justify-content: center; gap: 48px; margin-bottom: 44px; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat-num { font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: var(--cyan); line-height: 1; }
+    .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 4px; letter-spacing: 0.04em; text-transform: uppercase; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+    .btn-primary { background: var(--cyan); color: var(--bg); padding: 13px 32px; border-radius: 8px; font-weight: 700; font-size: 0.88rem; text-decoration: none; letter-spacing: 0.02em; transition: opacity 0.2s, transform 0.15s; }
+    .btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
+    .btn-ghost { border: 1px solid var(--border); color: var(--text); padding: 13px 32px; border-radius: 8px; font-weight: 600; font-size: 0.88rem; text-decoration: none; transition: border-color 0.2s, color 0.2s, transform 0.15s; }
+    .btn-ghost:hover { border-color: var(--cyan); color: var(--cyan); transform: translateY(-2px); }
+
+    /* ── SECTION BASE ── */
+    .section-wrap { padding: 96px 24px; max-width: 1080px; margin: 0 auto; }
+    .section-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--cyan); margin-bottom: 10px; }
+    .section-title { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; letter-spacing: -0.03em; margin-bottom: 48px; color: #fff; }
+
+    /* ── ABOUT ── */
+    #about { background: var(--bg); }
+    .about-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: start; }
+    .about-text p { color: var(--muted); line-height: 1.85; margin-bottom: 16px; font-size: 0.97rem; }
+    .about-phone { display: inline-flex; align-items: center; gap: 8px; color: var(--cyan); font-size: 0.88rem; margin-top: 8px; text-decoration: none; }
+    .about-edu {
+      background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 24px 28px; margin-bottom: 16px;
+    }
+    .edu-school { font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: #fff; font-size: 0.97rem; margin-bottom: 4px; }
+    .edu-degree { color: var(--muted); font-size: 0.85rem; }
+    .edu-year { color: var(--cyan); font-size: 0.78rem; font-weight: 600; margin-top: 8px; }
+    .cert-list { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+    .cert-item {
+      display: flex; align-items: center; gap: 10px;
+      background: var(--bg3); border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 16px; font-size: 0.83rem; color: var(--muted);
+    }
+    .cert-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--amber); flex-shrink: 0; }
+
+    /* ── EXPERIENCE ── */
+    #experience { background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .exp-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      margin-bottom: 10px; flex-wrap: wrap; gap: 8px;
+    }
+    .exp-company { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: #fff; font-size: 1.05rem; }
+    .exp-role { color: var(--cyan); font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+    .exp-date { font-size: 0.78rem; color: var(--muted); white-space: nowrap; border: 1px solid var(--border); border-radius: 999px; padding: 3px 12px; }
+    .exp-projects { margin-top: 20px; display: flex; flex-direction: column; gap: 16px; }
+    .exp-proj {
+      background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 22px 26px; transition: border-color 0.2s;
+    }
+    .exp-proj:hover { border-color: var(--cyan); }
+    .exp-proj-title { font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: #fff; font-size: 0.95rem; margin-bottom: 12px; }
+    .exp-bullets { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .exp-bullets li { font-size: 0.85rem; color: var(--muted); line-height: 1.65; padding-left: 16px; position: relative; }
+    .exp-bullets li::before { content: '→'; position: absolute; left: 0; color: var(--cyan); font-size: 0.78rem; top: 1px; }
+    .metric { color: var(--amber); font-weight: 600; }
+
+    /* ── SKILLS ── */
+    #skills { background: var(--bg); }
+    .skills-categories { display: flex; flex-direction: column; gap: 32px; }
+    .skill-group-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+    .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill-pill {
+      background: var(--bg3); border: 1px solid var(--border); color: var(--text);
+      border-radius: 999px; padding: 7px 18px; font-size: 0.83rem; font-weight: 500;
+      transition: background 0.2s, border-color 0.2s, color 0.2s; cursor: default;
+    }
+    .skill-pill:hover { background: var(--cyan-dim); border-color: var(--cyan); color: var(--cyan); }
+
+    /* ── PROJECTS ── */
+    #projects { background: var(--bg2); border-top: 1px solid var(--border); }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
+    .proj-card {
+      background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 26px; position: relative; overflow: hidden;
+      transition: border-color 0.25s, transform 0.2s; color: inherit;
+    }
+    .proj-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .proj-card:hover { border-color: var(--cyan); transform: translateY(-4px); }
+    .proj-card:hover::before { opacity: 1; }
+    .proj-cat { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--cyan); margin-bottom: 10px; }
+    .proj-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 0.97rem; font-weight: 600; margin-bottom: 8px; color: #fff; }
+    .proj-card p { font-size: 0.84rem; color: var(--muted); line-height: 1.65; }
+    .proj-links { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+    .proj-link { font-size: 0.76rem; font-weight: 600; letter-spacing: 0.04em; color: var(--cyan); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 999px; transition: background 0.2s; }
+    .proj-link:hover { background: var(--cyan-dim); }
+
+    /* ── LIVE SITES ── */
+    #live { background: var(--bg); border-top: 1px solid var(--border); }
+    .sites-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 18px; }
+    .site-card { background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; text-align: center; transition: border-color 0.2s, transform 0.2s; text-decoration: none; display: block; }
+    .site-card:hover { border-color: var(--cyan); transform: translateY(-3px); }
+    .site-dot { width: 9px; height: 9px; background: var(--green); border-radius: 50%; margin: 0 auto 14px; box-shadow: 0 0 8px var(--green); }
+    .site-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 0.9rem; font-weight: 600; color: #fff; }
+
+    /* ── CONTACT ── */
+    #contact { text-align: center; background: var(--bg2); border-top: 1px solid var(--border); }
+    .contact-links { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-top: 36px; }
+    .contact-btn { display: flex; align-items: center; gap: 10px; background: var(--bg3); border: 1px solid var(--border); padding: 14px 26px; border-radius: var(--radius); color: var(--text); text-decoration: none; font-weight: 500; font-size: 0.88rem; transition: border-color 0.2s, color 0.2s, transform 0.15s; }
+    .contact-btn:hover { border-color: var(--cyan); color: var(--cyan); transform: translateY(-2px); }
+    .contact-btn svg { width: 19px; height: 19px; fill: currentColor; flex-shrink: 0; }
+
+    /* ── FOOTER ── */
+    footer { text-align: center; padding: 36px 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+
+    @media (max-width: 720px) {
+      nav { padding: 14px 20px; }
+      .nav-links { gap: 16px; }
+      .about-grid { grid-template-columns: 1fr; }
+      .section-wrap { padding: 64px 20px; }
+      .hero-stats { gap: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">DH.</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="neural"></canvas>
+  <div class="hero-content">
+    <div class="hero-tag">Machine Learning Engineer · Chennai, India</div>
+    <h1>Dhamodharan R.</h1>
+    <p class="hero-sub">2.5+ years building scalable deep learning and computer vision systems in production. Expertise in feature embedding, similarity search, and end-to-end ML pipelines.</p>
+    <div class="hero-meta">
+      <span>Computer Vision</span>
+      <span>Vision Transformers</span>
+      <span>Production ML</span>
+      <span>PyTorch · TensorFlow</span>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">20%</div><div class="stat-label">Retrieval Accuracy ↑</div></div>
+      <div class="stat"><div class="stat-num">60×</div><div class="stat-label">Search Latency ↓</div></div>
+      <div class="stat"><div class="stat-num">98%</div><div class="stat-label">CNN Test Accuracy</div></div>
+      <div class="stat"><div class="stat-num">2.5+</div><div class="stat-label">Years Production ML</div></div>
+    </div>
+    <div class="hero-ctas">
+      <a href="#experience" class="btn-primary">View Experience</a>
+      <a href="#contact" class="btn-ghost">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-wrap">
+    <div class="section-label">Background</div>
+    <div class="section-title">About Me</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Machine Learning Engineer with 2.5+ years of experience developing and deploying scalable deep learning and computer vision systems in production environments. Demonstrated success in improving model accuracy, reducing inference latency, and building end-to-end ML pipelines for large-scale engineering applications.</p>
+        <p>Proficient in Python, PyTorch, and modern ML deployment frameworks with strong focus on performance optimization, scalability, and reliable ML system design. Expertise in feature embedding models, similarity search, and visual classification systems.</p>
+        <p>Beyond professional work, I actively explore cutting-edge architectures — Vision Transformers, attention mechanisms, U-Net segmentation — and publish open-source tools and data science notebooks.</p>
+        <a class="about-phone" href="tel:+919500899156">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          +91 9500899156
+        </a>
+      </div>
+      <div>
+        <div class="about-edu">
+          <div class="edu-school">K. S. Rangasamy College of Technology</div>
+          <div class="edu-degree">B.Tech — Nanoscience and Technology</div>
+          <div class="edu-year">2019 – 2023</div>
+        </div>
+        <div class="section-label" style="margin-top: 24px; margin-bottom: 12px;">Certifications</div>
+        <div class="cert-list">
+          <div class="cert-item"><span class="cert-dot"></span>Deep Learning Certification — Simplilearn</div>
+          <div class="cert-item"><span class="cert-dot"></span>Machine Learning Certification — Simplilearn</div>
+          <div class="cert-item"><span class="cert-dot"></span>Google Data Analytics Professional Certificate — Coursera</div>
+          <div class="cert-item"><span class="cert-dot"></span>Python Certification — Udemy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-wrap">
+    <div class="section-label">Professional</div>
+    <div class="section-title">Work Experience</div>
+
+    <div style="background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 32px;">
+      <div class="exp-header">
+        <div>
+          <div class="exp-role">Machine Learning Engineer</div>
+          <div class="exp-company">Alfa-TKG Integrated Solutions India Pvt. Ltd.</div>
+        </div>
+        <div class="exp-date">Mar 2023 – Present</div>
+      </div>
+
+      <div class="exp-projects">
+
+        <div class="exp-proj">
+          <div class="exp-proj-title">🔍 Engineering Drawing Similarity Search System</div>
+          <ul class="exp-bullets">
+            <li>Designed and deployed a scalable content-based similarity search system for engineering drawings, improving retrieval accuracy by <span class="metric">20%</span> and reducing search latency by <span class="metric">60×</span> using custom deep learning feature embedding models.</li>
+            <li>Improved model performance through loss function optimization, embedding space tuning, and feature normalization, enabling robust similarity matching across large-scale datasets.</li>
+            <li>Built end-to-end ML pipelines including preprocessing, feature extraction, embedding indexing, and cloud-based inference services for production engineering workflows.</li>
+          </ul>
+        </div>
+
+        <div class="exp-proj">
+          <div class="exp-proj-title">🧊 3D CAD Model Classification System</div>
+          <ul class="exp-bullets">
+            <li>Developed a lightweight ML classification system to automatically categorize 3D CAD models into sheet metal, weldments, solid parts, and purchased components.</li>
+            <li>Engineered efficient preprocessing and feature extraction pipelines; optimized for <span class="metric">CPU-only inference</span> enabling cost-effective, scalable deployment without GPU dependency.</li>
+            <li>Deployed on cloud infrastructure and integrated inference services into production systems for automated engineering workflow processing.</li>
+          </ul>
+        </div>
+
+        <div class="exp-proj">
+          <div class="exp-proj-title">🔬 Deep Learning-Based Visual Inspection System</div>
+          <ul class="exp-bullets">
+            <li>Built computer vision models to automate engineering inspection and support cross-team collaboration through automated visual analysis.</li>
+            <li>Developed feature extraction and classification pipelines optimized for reliable performance across diverse engineering drawings and inspection scenarios.</li>
+            <li>Deployed scalable inference services into internal tools, <span class="metric">improving inspection efficiency and reducing manual verification effort</span>.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-wrap">
+    <div class="section-label">Toolkit</div>
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-categories">
+      <div>
+        <div class="skill-group-label">Machine Learning & AI</div>
+        <div class="skills-grid">
+          <span class="skill-pill">Computer Vision</span>
+          <span class="skill-pill">Deep Learning</span>
+          <span class="skill-pill">CNN</span>
+          <span class="skill-pill">Vision Transformers (ViT)</span>
+          <span class="skill-pill">SWIN Transformer</span>
+          <span class="skill-pill">Transfer Learning</span>
+          <span class="skill-pill">Feature Embedding</span>
+          <span class="skill-pill">Similarity Search</span>
+          <span class="skill-pill">Classification</span>
+          <span class="skill-pill">Clustering</span>
+          <span class="skill-pill">Regression</span>
+          <span class="skill-pill">Model Optimization</span>
+          <span class="skill-pill">Hyperparameter Tuning</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Libraries & Frameworks</div>
+        <div class="skills-grid">
+          <span class="skill-pill">PyTorch</span>
+          <span class="skill-pill">TensorFlow</span>
+          <span class="skill-pill">Scikit-learn</span>
+          <span class="skill-pill">OpenCV</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">Matplotlib</span>
+          <span class="skill-pill">Seaborn</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Deployment & Engineering</div>
+        <div class="skills-grid">
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">REST API</span>
+          <span class="skill-pill">Inference Pipelines</span>
+          <span class="skill-pill">Production ML Systems</span>
+          <span class="skill-pill">Cloud Deployment</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Data & Databases</div>
+        <div class="skills-grid">
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">FAISS (Vector DB)</span>
+          <span class="skill-pill">Marqo (Vector DB)</span>
+          <span class="skill-pill">Data Preprocessing</span>
+          <span class="skill-pill">Feature Engineering</span>
+          <span class="skill-pill">Dataset Annotation (CVAT)</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Languages & Tools</div>
+        <div class="skills-grid">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">C</span>
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Dart / Flutter</span>
+          <span class="skill-pill">HTML / CSS</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">Power BI</span>
+          <span class="skill-pill">Streamlit</span>
+          <span class="skill-pill">Firebase</span>
+          <span class="skill-pill">Minitab</span>
+          <span class="skill-pill">JMP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-wrap">
+    <div class="section-label">Personal Work</div>
+    <div class="section-title">Projects</div>
+    <div class="projects-grid">
+
+      <div class="proj-card">
+        <div class="proj-cat">Vision Transformers</div>
+        <h3>SWIN Transformer — From Scratch</h3>
+        <p>Hierarchical vision transformer with shifted window attention, patch embedding, and positional encoding. Benchmarked against CNN baselines for image classification.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785/Vision-Transformers/tree/main/02_SWIN/01_From%20scratch" target="_blank">GitHub</a>
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/swinv1" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Vision Transformers</div>
+        <h3>Vision Transformer (ViT)</h3>
+        <p>Pure attention-based image classification using patch-based global feature learning. Implemented multi-head self-attention and positional encoding from scratch.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785/Vision-Transformers/tree/main/01_ViT" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Attention Mechanisms</div>
+        <h3>CBAM — Channel + Spatial Attention</h3>
+        <p>Convolutional Block Attention Module combining channel and spatial attention for improved feature recalibration in CNNs.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785/Attention/tree/main/03_Spatial%20attention%20(CBAM)" target="_blank">GitHub</a>
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/cbam-attention2" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Attention Mechanisms</div>
+        <h3>SENet — Squeeze & Excitation</h3>
+        <p>Channel attention with adaptive feature recalibration. Evaluated performance gains over baseline CNN architectures.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785/Attention/tree/main/02_Channel%20attention/01_SENet" target="_blank">GitHub</a>
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/channel-attention-se-net" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Segmentation</div>
+        <h3>U-Net Segmentation Suite</h3>
+        <p>U-Net from scratch + multilabel segmentation with class weights + backbone-enhanced U-Net. Evaluated with IoU and Dice coefficient metrics.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/semantic-segmentation-using-u-net" target="_blank">U-Net</a>
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/u-net-with-backbones" target="_blank">Backbones</a>
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/instance-segmentation-with-class-weights" target="_blank">Multilabel</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Final Year Project</div>
+        <h3>Plant Disease Detection — Custom CNN</h3>
+        <p>21-layer custom CNN achieving <strong style="color:var(--amber)">98% test accuracy</strong> for multi-class plant disease classification. Used bagging ensemble with RGB, Grayscale, HOG, HSV, and Wavelet feature sets. Outperforms AlexNet and VGG-16 with fewer parameters.</p>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Classification</div>
+        <h3>Image Classification Architectures</h3>
+        <p>From-scratch PyTorch implementations of MobileNet, DenseNet, ResNet, and InceptionNet with training pipelines and performance analysis.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/from-scratch-inception-resnet-nb-1#1.-Inception-v1" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Machine Learning</div>
+        <h3>Autoencoders for Denoising</h3>
+        <p>Encoder-decoder networks for image denoising, demonstrating latent-space feature compression and reconstruction quality.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/autoencoders-for-denoising" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Data Science</div>
+        <h3>Feature Selection Complete Guide</h3>
+        <p>Comprehensive guide covering filter, wrapper, and embedded feature selection methods with practical, reproducible examples.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/feature-selection-complete-guide-part-1" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Data Science</div>
+        <h3>Causes of Deaths Analysis</h3>
+        <p>Global mortality analysis across road injuries, nutritional deficiencies, and disease categories with rich visualizations.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://www.kaggle.com/code/dhamur/causes-of-deaths" target="_blank">Kaggle</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Python · Open Source</div>
+        <h3>PyDMath — Published PyPI Library</h3>
+        <p>Open-source Python library for solving aptitude and mathematical problems programmatically. Available on pip as <code style="color:var(--cyan)">numbersD</code>.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785/PyDMath" target="_blank">GitHub</a>
+          <a class="proj-link" href="https://pypi.org/project/numbersD/" target="_blank">PyPI</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Python Utilities</div>
+        <h3>Python Tools Collection</h3>
+        <p>Keylogger · Mouse Automation · File Organiser · Image Downloader · Encrypt/Decrypt · Location Tracker · Password Generator · YouTube Downloader · URL Scanner</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785?tab=repositories" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-cat">Flutter</div>
+        <h3>Calculator App</h3>
+        <p>Cross-platform calculator built with Flutter and Dart, demonstrating mobile UI design and state management.</p>
+        <div class="proj-links">
+          <a class="proj-link" href="https://github.com/Dhamu785/Calculator-using-Flutter-" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Live Sites -->
+    <div style="margin-top: 64px;">
+      <div class="section-label" style="margin-bottom: 10px;">Deployed</div>
+      <div class="section-title" style="margin-bottom: 28px; font-size: clamp(1.4rem, 3vw, 2rem);">Live Websites</div>
+      <div class="sites-grid">
+        <a class="site-card" href="https://covid-19-website-3f3c2.firebaseapp.com/" target="_blank">
+          <div class="site-dot"></div>
+          <h3>COVID-19 Daily Updates</h3>
+        </a>
+        <a class="site-card" href="https://ksrct-internationalconference.nicepage.io/Home.html" target="_blank">
+          <div class="site-dot"></div>
+          <h3>International Conference</h3>
+        </a>
+        <a class="site-card" href="https://demo-dashboard.streamlit.app/" target="_blank">
+          <div class="site-dot"></div>
+          <h3>Machine &amp; Work Analysis</h3>
+        </a>
+        <a class="site-card" href="https://dash-board-2cdorme8vcjdshdfzhru9j.streamlit.app/" target="_blank">
+          <div class="site-dot"></div>
+          <h3>Sales Report Dashboard</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="section-label">Say Hello</div>
+    <div class="section-title">Get in Touch</div>
+    <p style="color: var(--muted); max-width: 480px; margin: 0 auto 8px; text-align: center; font-size:0.95rem;">Open to collaborations, interesting ML problems, and new opportunities.</p>
+    <div class="contact-links">
+      <a class="contact-btn" href="mailto:dhamodharan1888@gmail.com">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        Email
+      </a>
+      <a class="contact-btn" href="tel:+919500899156">
+        <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        +91 9500899156
+      </a>
+      <a class="contact-btn" href="https://www.linkedin.com/in/dhamodharan-r-10875a212/" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a class="contact-btn" href="https://github.com/Dhamu785" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        GitHub
+      </a>
+      <a class="contact-btn" href="https://www.kaggle.com/dhamur" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.234.118-.353.354-.353h2.431c.234 0 .351.119.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.336"/></svg>
+        Kaggle
+      </a>
+      <a class="contact-btn" href="https://www.instagram.com/dhamu_pythonista/" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Dhamodharan R. · Chennai, India · dhamodharan1888@gmail.com · © 2025</p>
+</footer>
+
+<script>
+(function() {
+  const canvas = document.getElementById('neural');
+  const ctx = canvas.getContext('2d');
+  let nodes = [], W, H;
+  function resize() { W = canvas.width = canvas.offsetWidth; H = canvas.height = canvas.offsetHeight; }
+  function init() {
+    resize(); nodes = [];
+    const count = Math.floor((W * H) / 13000);
+    for (let i = 0; i < count; i++) {
+      nodes.push({ x: Math.random()*W, y: Math.random()*H, vx:(Math.random()-0.5)*0.3, vy:(Math.random()-0.5)*0.3, r: Math.random()*2+1 });
+    }
+  }
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    const maxDist = 130;
+    for (let i = 0; i < nodes.length; i++) {
+      const n = nodes[i];
+      n.x += n.vx; n.y += n.vy;
+      if (n.x < 0 || n.x > W) n.vx *= -1;
+      if (n.y < 0 || n.y > H) n.vy *= -1;
+      ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, Math.PI*2);
+      ctx.fillStyle = '#00D4FF'; ctx.fill();
+      for (let j = i+1; j < nodes.length; j++) {
+        const m = nodes[j], dx = n.x-m.x, dy = n.y-m.y, dist = Math.sqrt(dx*dx+dy*dy);
+        if (dist < maxDist) {
+          ctx.beginPath(); ctx.moveTo(n.x, n.y); ctx.lineTo(m.x, m.y);
+          ctx.strokeStyle = `rgba(0,212,255,${0.45*(1-dist/maxDist)})`; ctx.lineWidth = 0.5; ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  window.addEventListener('resize', init);
+  init(); draw();
+})();
+</script>
+
+</body>
+</html>
